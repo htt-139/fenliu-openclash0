@@ -85,9 +85,10 @@ ruleset=🎮 Steam,[]GEOSITE,steam
 ruleset=🟦 OKX,[]GEOSITE,okx
 ruleset=🟨 Binance,[]GEOSITE,binance
 ruleset=🟪 Bybit,[]GEOSITE,bybit
+ruleset=🟪 Adobe,[]GEOSITE,adobe
 ; ==========================================================
 ; --- 若使用上方geo没有匹配到可以用下方url来匹配，需先在上方删除该应用的ruleset ---
-; --- ruleset=🟦 OKX,clash-domain:https://xxx/okx.yaml,86400
+; --- ruleset=📦 Notion,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/notion.yaml,86400
 ; ==========================================================
 
 ;------------请在上方区域内添加应用---------------
@@ -95,6 +96,8 @@ ruleset=🟪 Bybit,[]GEOSITE,bybit
 ruleset=📞 即时通讯,[]GEOSITE,category-communication
 ruleset=💬 社交媒体,[]GEOSITE,category-social-media-!cn
 ; --- Google / Microsoft/cf（新增） ---
+ruleset=🛫  Google,[]GEOSITE,google
+ruleset=🛫  Google,[]GEOIP,google,no-resolve
 ruleset=☁️ cloudflare,[]GEOSITE,cloudflare
 ruleset=☁️ cloudflare,[]GEOIP,cloudflare,no-resolve
 
